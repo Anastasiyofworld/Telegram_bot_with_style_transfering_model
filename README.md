@@ -51,9 +51,9 @@ You can send to the bot 2 images and get as a result one image (the first one) w
 - `pip install Pillow`
 - `pip install torchvision`
 
-2. clone repository
-3. create **your own token** in **BotFather** and add your bot token to this file `token.txt`
-4. run `bot.py` 
+2. Clone repository
+3. Create **your own token** in **BotFather** and add your bot token to this file `token.txt`
+4. Run `bot.py` 
 
 ## Using
 
@@ -64,6 +64,6 @@ You can send to the bot 2 images and get as a result one image (the first one) w
 ## Settings
 
 `bot.py`
- - for adding more iterations to the model you can change the row `a = stm.Neural_style_transfer(image_size=256, max_iters=50)` (usual enough `max_iters=500`) Just for a test of how bot working use around 1-20
-- for changing max result image size change `self.image_size = 128` - tt's a  maximum image pixel size by one side
+- For adding more iterations to the model you can change the row `a = stm.Neural_style_transfer(image_size=256, max_iters=50)` (usual enough `max_iters=500`) Just for a test of how bot working use around 1-20
+- For changing max result image size change `self.image_size = 128` - it's a  maximum image pixel size by one side
   
