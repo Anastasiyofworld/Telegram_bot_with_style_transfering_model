@@ -26,29 +26,29 @@ You can send to the bot 2 images and get as a result one image (the first one) w
 
 ## Instalation
 
-0. Use Python 3.10
-1. 
-- pip install python-telegram-bot
-- pip install scipy
-- pip install numpy
-- pip install torch
-- pip install torch_snippets
-- pip install Pillow
-- pip install torchvision
+0. Use `Python 3.10`
+1. Install the nessessary libraries:
+- `pip install python-telegram-bot`
+- `pip install scipy`
+- `pip install numpy`
+- `pip install torch`
+- `pip install torch_snippets`
+- `pip install Pillow`
+- `pip install torchvision`
 
 2. clone repository
-3. create **your own token** in BotFather and add your bot token to this file `token.txt`
+3. create **your own token** in **BotFather** and add your bot token to this file `token.txt`
 4. run `bot.py` 
 
 ## Using
 
-1. After bot started call from your telegram /start command
+1. After bot started call from your telegram `/start` command
 2. Send 2 images
-3. Wait, it will be resived in around 20 seconds
+3. Wait, it will be received in around 20 seconds
 
 ## Settings
 
 `bot.py`
- - for add more iterations to the model you can change the row `a = stm.Neural_style_transfer(image_size=256, max_iters=50)` (usual enough `max_iters=500`) Just for a test of how bot working use around 1-20
-- for change max result image size change `self.image_size = 128` - tt's a  maximum image pixel size by one side
+ - for adding more iterations to the model you can change the row `a = stm.Neural_style_transfer(image_size=256, max_iters=50)` (usual enough `max_iters=500`) Just for a test of how bot working use around 1-20
+- for changing max result image size change `self.image_size = 128` - tt's a  maximum image pixel size by one side
   
