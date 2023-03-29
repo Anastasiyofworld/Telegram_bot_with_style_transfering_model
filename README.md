@@ -38,6 +38,12 @@ You can send to the bot 2 images and get as a result one image (the first one) w
   <img src="https://github.com/Anastasiyofworld/Telegram_bot_with_style_transfering_model/blob/main/imges/style_4_result.png" height="250" title="Style 4 RESULT" alt="Style 4 RESULT">
 </p>
 
+<b> Screenshot
+
+<p align="center">
+  <img src="https://github.com/Anastasiyofworld/Telegram_bot_with_style_transfering_model/blob/main/imges/screenshot.jpg" width="250" title='Screenshot" alt="Screenshot">
+</p>
+
 
 ## Instalation
 
